@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="col">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#DDDDDDDD</color>
+    <color name="black">#000000</color>
+    <color name="myBlue">#039BE5</color>
+
+</resources>

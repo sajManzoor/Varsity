@@ -1,0 +1,6 @@
+http://akrhcb.esy.es/mas.php?method=getUniDetails&uid=100
+http://akrhcb.esy.es/mas.php?method=getFacDetails&uid=100
+http://akrhcb.esy.es/mas.php?method=getResultDetails&uid=100
+http://akrhcb.esy.es/mas.php?method=getIntakeDetails&uid=100
+http://akrhcb.esy.es/mas.php?method=getUniList
+http://akrhcb.esy.es/mas.php?method=getAllDetails&uid=100

@@ -1,0 +1,81 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:CardView="http://schemas.android.com/apk/res-auto"
+    android:background="#00AEF3">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="my.firstApp.sajid.versity.IntroA"
+    android:background="#00AEF3">
+
+    <android.support.v7.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/my1"
+        android:layout_gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="500dp"
+        CardView:cardCornerRadius="7dp"
+        CardView:contentPadding="0dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="10dp"
+        CardView:cardBackgroundColor="#EDEDED"
+        CardView:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView9"
+        android:src="@drawable/searcher"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notes"
+        android:id="@+id/textView32"
+        android:textColor="#592323"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_below="@+id/imageView9"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome "
+        android:id="@+id/textView33"
+        android:layout_marginTop="40dp"
+        android:textColor="#592323"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true" />
+
+    TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView2"
+        android:layout_toEndOf="@+id/textView33"
+        android:layout_marginTop="88dp"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
+</ScrollView>

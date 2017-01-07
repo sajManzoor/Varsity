@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00AEF3">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:CardView="http://schemas.android.com/apk/res-auto"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="my.firstApp.sajid.versity.MalaysiaFormEstimate">
+
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/Myest"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            CardView:cardCornerRadius="6dp"
+            CardView:contentPadding="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="100dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/choose"
+                    android:id="@+id/textView30"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentStart="true" />
+
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:id="@+id/myspinner"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="50dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Toefl : "
+                    android:id="@+id/textView99"
+                    android:layout_below="@+id/myspinner"
+                    android:layout_marginTop="25dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ielts : "
+                    android:id="@+id/textView100"
+                    android:layout_below="@+id/textView99"
+                    android:layout_marginTop="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Please Enter your"
+                    android:id="@+id/textView31"
+                    android:layout_below="@+id/textView100"
+                    android:layout_marginTop="15dp" />
+
+
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView31"
+                    android:id="@+id/ed2"
+                    android:layout_marginTop="25dp">
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/editText2"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:hint="Score"
+                        android:layout_below="@+id/usspinner"
+                        android:layout_marginLeft="10dp"
+                        android:layout_alignParentStart="true" />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Estimate"
+                    android:id="@+id/buttonEstimatorMy"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/ed2"
+                    android:layout_marginTop="25dp" />
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/user"
+            android:title="User Profile" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/versity"
+            android:title="Detailed Results" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/world"
+            android:title="World University Directory" />
+
+    </group>
+
+    <item android:title="Talk to Us">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/feedback"
+                android:title="Feed Back" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

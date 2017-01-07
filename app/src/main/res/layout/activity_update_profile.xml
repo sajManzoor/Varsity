@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00AEF3">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:CardView="http://schemas.android.com/apk/res-auto"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="my.firstApp.sajid.versity.Signup">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/signup"
+            android:id="@+id/textView4"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/form"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            CardView:cardCornerRadius="6dp"
+            CardView:contentPadding="5dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_below="@+id/textView4"
+            android:layout_marginTop="30dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/first"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/nameEd"
+                        android:hint="user name"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="30dp"
+                        />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/first"
+                    android:id="@+id/third">
+
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/nationEd"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:hint="nationality"
+                        android:layout_centerHorizontal="true"
+                        />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/third"
+                    android:id="@+id/fourth">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ageEd"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:hint="age"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                </android.support.design.widget.TextInputLayout>
+
+
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/fourth"
+                    android:id="@+id/sixth">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="gpa"
+                        android:id="@+id/gpaEd"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:imeOptions="actionNext"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_centerHorizontal="true" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sixth"
+                    android:id="@+id/fifth">
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/spinnerEd"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_below="@+id/fourth"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginTop="10dp"/>
+
+                </android.support.design.widget.TextInputLayout>
+
+
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:id="@+id/buttonUpdate"
+            android:layout_below="@+id/form"
+            android:layout_marginTop="20dp" />
+
+
+    </RelativeLayout>
+</ScrollView>
